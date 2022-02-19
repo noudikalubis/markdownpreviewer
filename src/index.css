@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
+
+html {
+  background-color: #222222;
+}
+
+.App {
+  background-color:	#222222;
+}
+
+.upper {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  width: 83vw;
+  font-size: 14pt;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.editor {
+  width: 40vw;
+  height: 80vh;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: #252525;
+  color: #D1D4C9;
+  font-family: 'Roboto Serif', sans-serif;
+  padding: 20px;
+}
+
+.preview {
+  color: #D1D4C9;
+  width: 40vw;
+  height: 80vh;
+  margin-top: 10px;
+  background-color: #42424241;
+  border-radius: 25px;
+  font-family: 'Roboto Serif', sans-serif;
+  padding: 20px;
+  font-size: 13pt;
+}
+
+img[alt=githubLogo] { width: 25px; }
+
+@media (max-width: 767.98px) { 
+ 
+  .editor{
+    width: 90vw;
+    height: 30vh;
+    margin-left: 2vw;
+  }
+
+  .preview {
+    width: 90vw;
+    height: 60vh;
+    margin-left: 2vw;
+  }
+
+  .upper {
+    display: none;
+  }
+}
